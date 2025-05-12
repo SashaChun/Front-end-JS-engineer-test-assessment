@@ -1,8 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Here's a comprehensive `README.md` file for the [Front-end JS Engineer Test Assessment](https://github.com/SashaChun/Front-end-JS-engineer-test-assessment) project:
 
-## Getting Started
+---
 
-First, run the development server:
+# Front-end JS Engineer Test Assessment
+
+This is a **Next.js** project bootstrapped with `create-next-app`. It serves as a front-end engineering assessment, showcasing modern web development practices using TypeScript, Tailwind CSS, and Next.js.
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Ensure you have the following installed:
+
+* [Node.js](https://nodejs.org/) (v18 or higher)
+* Package manager: `npm`, `yarn`, `pnpm`, or `bun`
+
+### Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/SashaChun/Front-end-JS-engineer-test-assessment.git
+   cd Front-end-JS-engineer-test-assessment
+   ```
+
+
+
+2. **Install dependencies:**
+
+   Using your preferred package manager:
+
+   ```bash
+   npm install
+   # or
+   yarn install
+   # or
+   pnpm install
+   # or
+   bun install
+   ```
+
+
+
+### Running the Development Server
+
+Start the development server with:
 
 ```bash
 npm run dev
@@ -14,23 +56,68 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
 
-## Learn More
+### Building for Production
 
-To learn more about Next.js, take a look at the following resources:
+To create an optimized production build:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run build
+# or
+yarn build
+# or
+pnpm build
+# or
+bun build
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Then, to start the production server:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+npm start
+# or
+yarn start
+# or
+pnpm start
+# or
+bun start
+```
+
+
+
+## 🧠 Project Overview
+
+### Features
+
+* **TypeScript** for static type checking and improved developer experience.
+* **Tailwind CSS** for rapid and utility-first styling.
+* **Next.js App Router** for file-based routing and server-side rendering.
+* **ESLint** configured for code quality and consistency.
+* Structured project layout with `app/`, `public/`, and `src/` directories.
+
+### Architecture
+
+* **`app/`**: Contains the main application routes and pages, leveraging Next.js's App Router.
+* **`public/`**: Houses static assets like images and fonts.
+* **`src/`**: Intended for reusable components, utilities, and hooks.
+* **`next.config.ts`**: Custom Next.js configuration.
+* **`tsconfig.json`**: TypeScript compiler options.
+* **`postcss.config.mjs`**: PostCSS configuration for Tailwind CSS.
+* **`eslint.config.mjs`**: ESLint configuration for linting rules.
+
+## 📚 Learn More
+
+To deepen your understanding of the technologies used:
+
+* [Next.js Documentation](https://nextjs.org/docs)
+* [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+* [TypeScript Documentation](https://www.typescriptlang.org/docs/)
+
+---
+
+Feel free to customize this `README.md` further to align with any additional features or specific instructions pertinent to your project.
