@@ -88,7 +88,9 @@ pnpm start
 bun start
 ```
 
-
+```.env
+SPOONACULAR_API_KEY=306f34d1851942ff81ee1f5674d57aaf
+```
 
 ## 🧠 Project Overview
 
@@ -111,6 +113,7 @@ bun start
 * **`eslint.config.mjs`**: ESLint configuration for linting rules.
 
 ## 📚 Learn More
+
 
 To deepen your understanding of the technologies used:
 
