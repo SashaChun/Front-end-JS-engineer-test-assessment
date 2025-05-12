@@ -1,23 +1,9 @@
 'use client'
-
+import {RecipeDataType} from "@/app/types/type";
 import Image from "next/image"
 
-type Ingredient = {
-    id: number
-    original: string
-}
-
-type RecipeData = {
-    id: string
-    name?: string
-    title: string
-    image: string
-    extendedIngredients: Ingredient[]
-    instructions?: string
-}
-
 type Props = {
-    recipeData: RecipeData
+    recipeData: RecipeDataType
 }
 
 const RecipDetail = ({ recipeData }: Props) => {
@@ -42,10 +28,6 @@ const RecipDetail = ({ recipeData }: Props) => {
                             <li key={ingredient.id}>{ingredient.original}</li>
                         ))}
                     </ul>
-                </div>
-                <div className="mt-6 text-gray-800 text-lg">
-                    <h3 className="text-2xl font-semibold mb-4">Instructions:</h3>
-                    <p>{recipeData.instructions || "No instructions provided."}</p>
                 </div>
             </div>
         </div>
